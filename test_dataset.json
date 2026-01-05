@@ -1,0 +1,663 @@
+[
+  {
+    "first_name": "John",
+    "last_name": "Smith",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "James",
+    "last_name": "Johnson",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Wilson",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "David",
+    "last_name": "Williams",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Robert",
+    "last_name": "Brown",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "William",
+    "last_name": "Jones",
+    "ground_truth": ["UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Richard",
+    "last_name": "Davis",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Thomas",
+    "last_name": "Miller",
+    "ground_truth": ["US", "Germany"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Charles",
+    "last_name": "Moore",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Christopher",
+    "last_name": "Taylor",
+    "ground_truth": ["US", "UK"],
+    "category": "common_western"
+  },
+  {
+    "first_name": "Michał",
+    "last_name": "Wilkowski",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Andrzej",
+    "last_name": "Kowalski",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Piotr",
+    "last_name": "Nowak",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Krzysztof",
+    "last_name": "Wiśniewski",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Stanisław",
+    "last_name": "Lewandowski",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Jan",
+    "last_name": "Kamiński",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Tomasz",
+    "last_name": "Zieliński",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Paweł",
+    "last_name": "Szymański",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Marcin",
+    "last_name": "Woźniak",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Grzegorz",
+    "last_name": "Dąbrowski",
+    "ground_truth": ["Poland"],
+    "category": "distinctive_polish"
+  },
+  {
+    "first_name": "Vladimir",
+    "last_name": "Putin",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Dmitry",
+    "last_name": "Medvedev",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Boris",
+    "last_name": "Yeltsin",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Sergei",
+    "last_name": "Ivanov",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Mikhail",
+    "last_name": "Gorbachev",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Igor",
+    "last_name": "Petrov",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Alexei",
+    "last_name": "Sokolov",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Nikolai",
+    "last_name": "Kuznetsov",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Andrei",
+    "last_name": "Volkov",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Pavel",
+    "last_name": "Lebedev",
+    "ground_truth": ["Russia"],
+    "category": "distinctive_russian"
+  },
+  {
+    "first_name": "Mohammed",
+    "last_name": "Al-Rashid",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Ahmed",
+    "last_name": "Al-Sayed",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Ali",
+    "last_name": "Hassan",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Omar",
+    "last_name": "Abdullah",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Fatima",
+    "last_name": "Al-Ahmad",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Hassan",
+    "last_name": "El-Masri",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Khalid",
+    "last_name": "Al-Farsi",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Yasmin",
+    "last_name": "El-Aziz",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Ibrahim",
+    "last_name": "Al-Mansoori",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Aisha",
+    "last_name": "Al-Harbi",
+    "ground_truth": ["Arab"],
+    "category": "distinctive_arab"
+  },
+  {
+    "first_name": "Jean",
+    "last_name": "Dupont",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Pierre",
+    "last_name": "Martin",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Marie",
+    "last_name": "Bernard",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "François",
+    "last_name": "Dubois",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Jacques",
+    "last_name": "Moreau",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Louis",
+    "last_name": "Lefebvre",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Sophie",
+    "last_name": "Leroy",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Antoine",
+    "last_name": "Rousseau",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Isabelle",
+    "last_name": "Garnier",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "Laurent",
+    "last_name": "Faure",
+    "ground_truth": ["France"],
+    "category": "distinctive_french"
+  },
+  {
+    "first_name": "José",
+    "last_name": "García",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Juan",
+    "last_name": "Rodríguez",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "María",
+    "last_name": "Fernández",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Antonio",
+    "last_name": "López",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Pedro",
+    "last_name": "Martínez",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Carmen",
+    "last_name": "Sánchez",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Miguel",
+    "last_name": "Pérez",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Isabel",
+    "last_name": "Gómez",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Francisco",
+    "last_name": "Díaz",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Ana",
+    "last_name": "Muñoz",
+    "ground_truth": ["Spain"],
+    "category": "distinctive_spanish"
+  },
+  {
+    "first_name": "Hans",
+    "last_name": "Schmidt",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Klaus",
+    "last_name": "Müller",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Wolfgang",
+    "last_name": "Schneider",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Friedrich",
+    "last_name": "Fischer",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Helmut",
+    "last_name": "Weber",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Gerhard",
+    "last_name": "Meyer",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Dieter",
+    "last_name": "Wagner",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Jürgen",
+    "last_name": "Hoffmann",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Bernd",
+    "last_name": "Becker",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Horst",
+    "last_name": "Zimmermann",
+    "ground_truth": ["Germany"],
+    "category": "distinctive_german"
+  },
+  {
+    "first_name": "Marco",
+    "last_name": "Rossi",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Giuseppe",
+    "last_name": "Ferrari",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Antonio",
+    "last_name": "Russo",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Francesco",
+    "last_name": "Esposito",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Alessandro",
+    "last_name": "Bianchi",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Luigi",
+    "last_name": "Romano",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Giovanni",
+    "last_name": "Colombo",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Paolo",
+    "last_name": "Ricci",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Carlo",
+    "last_name": "Marino",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Roberto",
+    "last_name": "Greco",
+    "ground_truth": ["Italy"],
+    "category": "distinctive_italian"
+  },
+  {
+    "first_name": "Wei",
+    "last_name": "Wang",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Li",
+    "last_name": "Zhang",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Ming",
+    "last_name": "Liu",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Chen",
+    "last_name": "Yang",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Jing",
+    "last_name": "Chen",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Hui",
+    "last_name": "Wu",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Xiao",
+    "last_name": "Zhao",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Yan",
+    "last_name": "Zhou",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Jun",
+    "last_name": "Huang",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Ling",
+    "last_name": "Lin",
+    "ground_truth": ["China"],
+    "category": "distinctive_chinese"
+  },
+  {
+    "first_name": "Mary",
+    "last_name": "Wang",
+    "ground_truth": ["China", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Zhang",
+    "ground_truth": ["China", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Maria",
+    "last_name": "Kim",
+    "ground_truth": ["China"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "David",
+    "last_name": "Chen",
+    "ground_truth": ["China", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Petrova",
+    "ground_truth": ["Russia"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Kowalski",
+    "ground_truth": ["Poland", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Sarah",
+    "last_name": "Mueller",
+    "ground_truth": ["Germany", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Emily",
+    "last_name": "Garcia",
+    "ground_truth": ["Spain", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Daniel",
+    "last_name": "Rossi",
+    "ground_truth": ["Italy", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Lisa",
+    "last_name": "Dupont",
+    "ground_truth": ["France", "US"],
+    "category": "multicultural"
+  },
+  {
+    "first_name": "Wladimir",
+    "last_name": "Puttin",
+    "ground_truth": ["Russia"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Ahmad",
+    "last_name": "Al-Rachid",
+    "ground_truth": ["Arab"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Michal",
+    "last_name": "Wilkowsky",
+    "ground_truth": ["Poland"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Muhammad",
+    "last_name": "Hassan",
+    "ground_truth": ["Arab"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Vladimir",
+    "last_name": "Petrov",
+    "ground_truth": ["Russia"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Jon",
+    "last_name": "Smythe",
+    "ground_truth": ["US", "UK"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Philippe",
+    "last_name": "Dubois",
+    "ground_truth": ["France"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Josef",
+    "last_name": "Schmidt",
+    "ground_truth": ["Germany"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Carlos",
+    "last_name": "Gonzales",
+    "ground_truth": ["Spain"],
+    "category": "typo_transliteration"
+  },
+  {
+    "first_name": "Giovanni",
+    "last_name": "Rossi",
+    "ground_truth": ["Italy"],
+    "category": "typo_transliteration"
+  }
+]
+
