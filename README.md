@@ -2,6 +2,8 @@
 
 A proof-of-concept system for predicting the likely country of origin for a person's first and last name. Designed specifically for Anti-Money Laundering (AML) compliance system.
 
+**📋 For Production Deployment:** See [Deployment Summary](deployment_summary.md) | [OpenAPI Spec](openapi.yaml) | [Architecture Diagram](architecture_diagram.md)
+
 ## Quick Start
 
 ### Prerequisites
@@ -296,18 +298,21 @@ curl -X POST http://localhost:5050/api/classify \
 ### File Structure
 ```
 aml-name-origin/
-├── Dockerfile              # Container definition
-├── docker-compose.yml      # Multi-container orchestration
-├── requirements.txt        # Python dependencies
-├── app.py                  # Flask API server
-├── name_classifier.py      # Core classification logic
-├── evaluate.py             # Evaluation metrics module
-├── test_dataset.json       # Test dataset (120 names)
-├── build.sh                # Docker build script
-├── test_api.sh             # API test suite
-├── curl_samples.sh         # cURL command examples
-├── readme.md               # This file
-└── design.md               # Detailed design document
+├── Dockerfile                      # Container definition
+├── docker-compose.yml              # Multi-container orchestration
+├── requirements.txt                # Python dependencies
+├── app.py                          # Flask API server
+├── name_classifier.py              # Core classification logic
+├── evaluate.py                     # Evaluation metrics module
+├── test_dataset.json               # Test dataset (120 names)
+├── build.sh                        # Docker build script
+├── test_api.sh                     # API test suite
+├── curl_samples.sh                 # cURL command examples
+├── readme.md                       # This file
+├── design.md                       # Algorithm design document
+├── openapi.yaml                    # OpenAPI 3.0 API specification
+├── deployment_summary.md           # Executive deployment summary ⭐
+└── architecture_diagram.md         # Visual architecture diagrams
 ```
 
 ### Key Components
@@ -356,11 +361,51 @@ aml-name-origin/
 
 ---
 
+## Production Deployment Architecture
+
+### 📋 Documentation
+
+For comprehensive deployment architecture in enterprise on-premise environments, see:
+
+- **[OpenAPI Specification](openapi.yaml)** - Complete API contract (OpenAPI 3.0)
+- **[Architecture Diagrams](architecture_diagram.md)** - Visual reference with:
+  - High-level system architecture
+  - Request flow diagrams
+  - Scaling architecture
+  - Blue-green deployment flow
+  - Monitoring & observability flow
+  - Security layers
+
+### Key Highlights
+
+**Latency Targets:**
+- Single classification: P95 < 15ms, P99 < 30ms
+- Batch (100 names): P95 < 150ms
+
+**Scaling:**
+- Minimum: 3 replicas (high availability)
+- Maximum: 20 replicas (auto-scaling on CPU/memory)
+- Per-pod capacity: 100-200 req/s
+
+**Security:**
+- TLS 1.3 for data in transit
+- AES-256 encryption for PII at rest
+- JWT authentication via API Gateway
+- Comprehensive audit logging
+
+**Auditability:**
+- Every request logged to PostgreSQL
+- Explainable decisions (component scores, matched patterns)
+- 90-day PII retention
+- Compliance reports
+
+---
+
 ## Deployment
 
 ### Suggestions for Production Deployment
 
-**Kubernetes:**
+**Kubernetes (Recommended):**
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
